@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>LiberiOnTerra 的个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #005f99;
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+        main {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            border-left: 5px solid #005f99;
+            padding-left: 10px;
+            color: #005f99;
+        }
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .project {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        .project h3 {
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+        .project p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #005f99;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #666;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>LiberiOnTerra</h1>
+    <p>欢迎来到黎的个人主页</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>关于我</h2>
+        <p>Hello~ 这里是LiberiOnTerra。</p>
+    </section>
+
+    <section>
+        <h2>项目展示</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>FedRS</h3>
+                <p>这个项目是一个使用 Vue 和 Flask 开发的在线笔记应用。</p>
+                <a href="https://github.com/LiberiOnTerra/project1" target="_blank">查看源码 →</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>联系方式</h2>
+        <p>GitHub：<a href="https://github.com/LiberiOnTerra" target="_blank">LiberiOnTerra</a></p>
+        <p>邮箱：<a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2025 LiberiOnTerra. 版权所有。
+</footer>
+
+</body>
+</html>
